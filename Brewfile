@@ -1,5 +1,5 @@
-# 'brew tap'
 tap "homebrew/cask"
+tap "microsoft/git"
 cask_args appdir: "~/Applications", require_sha: true
 
 # Some inspiration from https://github.com/driesvints/dotfiles/blob/main/Brewfile
@@ -17,6 +17,7 @@ brew 'composer'
 cask 'adobe-acrobat-reader'
 cask 'adobe-creative-cloud'
 cask 'firefox'
+cask 'git-credential-manager-core'
 cask "google-chrome", args: { require_sha: false }
 cask "iterm2"
 cask "microsoft-office"
