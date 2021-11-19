@@ -17,6 +17,7 @@ brew install git
 
 # Install rest of apps, tools
 git clone https://github.com/erichmusick/dotfiles.git "$HOME/dotfiles"
+cd $HOME/dotfiles
 brew bundle
 
 # TODO
