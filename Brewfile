@@ -9,7 +9,6 @@ brew 'git'
 brew 'grep'
 
 # Development
-brew 'php'
 brew 'php@7.4'
 brew 'composer'
 
