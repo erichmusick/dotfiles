@@ -18,7 +18,22 @@ brew install git
 # Install rest of apps, tools
 git clone https://github.com/erichmusick/dotfiles.git "$HOME/dotfiles"
 cd $HOME/dotfiles
+
 brew bundle
 
-# TODO
+zsh "$HOME/dotfiles/install.zsh"
 ```
+
+## Installing Iterm2 Theme
+
+```
+open iterm2/themes/TomorrowNight.itermtheme
+```
+
+Then Cmd+I, choose TomorrowNight from the picker.
+
+TODO: Where does Iterm2 store this?
+
+## References
+
+* Borrowed heavily from https://github.com/mtaron/dotfiles
