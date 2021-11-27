@@ -7,6 +7,8 @@ cask_args appdir: "~/Applications", require_sha: true
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
 brew 'grep'
+brew 'fzf'
+brew 'stow'
 
 # Development
 brew 'php@7.4'
