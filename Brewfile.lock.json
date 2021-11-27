@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "2886a694eec33e46b3580b58e778a8830d515e83"
+        "revision": "bd473a059d39f70eda9839102c89f461dd619c36"
       },
       "microsoft/git": {
         "revision": "420fde0494a0e07b02b37e71979b7002446c23b1"
@@ -123,6 +123,16 @@
         "version": "2.0.567.18224",
         "options": {
           "full_name": "git-credential-manager-core",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "karabiner-elements": {
+        "version": "14.3.0",
+        "options": {
+          "full_name": "karabiner-elements",
           "args": {
             "appdir": "~/Applications",
             "require_sha": true
@@ -387,7 +397,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.5",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "7485c84c81e3063c2704f68beb1f074e37449f52",
+        "Homebrew/homebrew-core": "1f8ff9af69c0f888e9aa2a2c7b9d9ac2bb9ded40",
         "CLT": "13.1.0.0.1.1633545042",
         "Xcode": "13.1",
         "macOS": "12.0.1"

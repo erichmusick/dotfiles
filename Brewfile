@@ -15,6 +15,7 @@ brew 'composer'
 # Apps
 cask 'adobe-acrobat-reader'
 cask 'adobe-creative-cloud'
+cask 'karabiner-elements'
 cask 'firefox'
 cask 'git-credential-manager-core'
 cask "google-chrome", args: { require_sha: false }
