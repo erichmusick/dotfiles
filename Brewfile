@@ -17,6 +17,8 @@ brew 'composer'
 # Apps
 cask 'adobe-acrobat-reader'
 cask 'adobe-creative-cloud'
+cask 'docker'
+cask 'dotnet-sdk'
 cask 'karabiner-elements'
 cask 'firefox'
 cask 'gimp'
@@ -24,6 +26,8 @@ cask 'git-credential-manager-core'
 cask "google-chrome", args: { require_sha: false }
 cask "iterm2"
 cask "microsoft-office"
+cask "mysqlworkbench"
+cask "powershell"
 cask "rectangle"
 cask 'slack'
 cask "spotify", args: { require_sha: false }
