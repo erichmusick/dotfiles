@@ -17,6 +17,7 @@ brew 'composer'
 # Apps
 cask 'adobe-acrobat-reader'
 cask 'adobe-creative-cloud'
+cask 'alfred'
 cask 'docker'
 cask 'dotnet-sdk'
 cask 'karabiner-elements'

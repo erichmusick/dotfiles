@@ -188,6 +188,16 @@
             "require_sha": true
           }
         }
+      },
+      "alfred": {
+        "version": "4.6.3,1285",
+        "options": {
+          "full_name": "alfred",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
       }
     },
     "brew": {
