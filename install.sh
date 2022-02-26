@@ -14,3 +14,7 @@ stow p10k      --dir "$script_dir" --target "$HOME"
 
 rm -rf "$HOME/.zgenom"
 source "$HOME/.zshrc"
+
+# One-time setup
+
+/bin/bash "$script_dir/settings/osx.sh"
