@@ -22,6 +22,7 @@ cask 'docker'
 cask 'dotnet-sdk'
 cask 'karabiner-elements'
 cask 'firefox'
+cask 'flycut'
 cask 'gimp'
 cask 'git-credential-manager-core'
 cask "google-chrome", args: { require_sha: false }
@@ -30,6 +31,7 @@ cask "microsoft-office"
 cask "mysqlworkbench"
 cask "powershell"
 cask "rectangle"
+cask "signal"
 cask 'slack'
 cask "spotify", args: { require_sha: false }
 cask "visual-studio-code"
