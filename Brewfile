@@ -11,8 +11,9 @@ brew 'fzf'
 brew 'stow'
 
 # Development
-brew 'php@7.4'
+brew 'ansible'
 brew 'composer'
+brew 'php@7.4'
 
 # Apps
 cask 'adobe-acrobat-reader'
