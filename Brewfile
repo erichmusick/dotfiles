@@ -13,7 +13,12 @@ brew 'stow'
 # Development
 brew 'ansible'
 brew 'composer'
+
+# To switch versions:
+# brew unlink php@7.4
+# brew link php@8.0 --force
 brew 'php@7.4'
+brew 'php@8.0'
 
 # Apps
 cask 'adobe-acrobat-reader'
