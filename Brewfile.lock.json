@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "356b2dd902600cd5737bc568942a6598b7bfdeda"
+        "revision": "763a50c0b5eea1131064f765a1d77d395956e764"
       },
       "microsoft/git": {
         "revision": "6e810f8311145cfd000279f0c888c6240891f075"
@@ -60,7 +60,7 @@
         }
       },
       "microsoft-office": {
-        "version": "16.61.22050700",
+        "version": "16.62.22061100",
         "options": {
           "full_name": "microsoft-office",
           "args": {
@@ -70,7 +70,7 @@
         }
       },
       "slack": {
-        "version": "4.26.1",
+        "version": "4.27.154",
         "options": {
           "full_name": "slack",
           "args": {
@@ -140,7 +140,7 @@
         }
       },
       "gimp": {
-        "version": "2.10.30",
+        "version": "2.10.32",
         "options": {
           "full_name": "gimp",
           "args": {
@@ -170,7 +170,7 @@
         }
       },
       "dotnet-sdk": {
-        "version": "6.0.300,9e14be2d-f676-41ca-8483-ca43bb9c2fc6,7c647915c92303c11a444f88c66f174f",
+        "version": "6.0.301,635bd87f-f656-4c6b-b246-44b4ea377e0b,08efab409fd319fa1752d65c809783f8",
         "options": {
           "full_name": "dotnet-sdk",
           "args": {
@@ -606,6 +606,45 @@
             }
           }
         }
+      },
+      "php@8.0": {
+        "version": "8.0.20",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/php/8.0/blobs/sha256:8b614e3ba1345a44220b70a18dd148294df9aae4ac9d1d11b30c4f737cf91daa",
+              "sha256": "8b614e3ba1345a44220b70a18dd148294df9aae4ac9d1d11b30c4f737cf91daa"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/php/8.0/blobs/sha256:399f4b3cee87d33840f78b53ed287dd27496ba8c116317ae1d611ebb839243ea",
+              "sha256": "399f4b3cee87d33840f78b53ed287dd27496ba8c116317ae1d611ebb839243ea"
+            },
+            "monterey": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/php/8.0/blobs/sha256:4986b7b2adb3751d3c9e3248ee182033b90111b395b692994775e8c5806eba74",
+              "sha256": "4986b7b2adb3751d3c9e3248ee182033b90111b395b692994775e8c5806eba74"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/php/8.0/blobs/sha256:f591a91be82458b7ce13288db2fe100d46b29ae7cbcc7288effbfd28a4a4d664",
+              "sha256": "f591a91be82458b7ce13288db2fe100d46b29ae7cbcc7288effbfd28a4a4d664"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/php/8.0/blobs/sha256:da5f38835d9adb4dbccdb12c17e9bc78c50fcaf7750d56a9efd91d4e9bee69cd",
+              "sha256": "da5f38835d9adb4dbccdb12c17e9bc78c50fcaf7750d56a9efd91d4e9bee69cd"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/php/8.0/blobs/sha256:b6daf1de143401c0ac520f18fccf6fa31a8c00030e2ddbaca6a747ac2096d53c",
+              "sha256": "b6daf1de143401c0ac520f18fccf6fa31a8c00030e2ddbaca6a747ac2096d53c"
+            }
+          }
+        }
       }
     }
   },
@@ -614,7 +653,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.5.2",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "fa8afed1db0c85612a2f5cfd404b662e769e3cc6",
+        "Homebrew/homebrew-core": "cbead155e8718794f760d799df72183cee16ee70",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.4",
         "macOS": "12.3.1"

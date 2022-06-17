@@ -41,9 +41,6 @@ if ! zgenom saved; then
 
   zgenom ohmyzsh
 
-  # Prefix current or previous command with sudo by hitting ESC twice
-  zgenom ohmyzsh plugins/sudo
-
   # Adds 'acs' alias that lists aliases grouped by plugin
   zgenom ohmyzsh plugins/aliases
 
