@@ -1,7 +1,3 @@
-# Use Ctrl+Z as interrupt instead of Ctrl+C
-# This must be done before Powerlevel10k instant prompt
-stty intr ^X
-
 DISABLE_MAGIC_FUNCTIONS="true"
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
