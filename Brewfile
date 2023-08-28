@@ -30,7 +30,7 @@ cask 'karabiner-elements'
 cask 'firefox'
 cask 'flycut'
 cask 'gimp'
-cask 'git-credential-manager-core'
+cask 'git-credential-manager'
 cask "google-chrome", args: { require_sha: false }
 cask "iterm2"
 cask "microsoft-office"
@@ -42,6 +42,8 @@ cask 'slack'
 cask "spotify", args: { require_sha: false }
 cask "visual-studio-code"
 cask 'zoom'
+
+mas 'nextdns', id: 1464122853
 
 # TODO: To learn about
 # cask 'ray'
